@@ -1,6 +1,6 @@
 # Submodule
 
-## Funcions
+## Function
 
 ```javascript
 const onAccumulate = (data: number[]): number  => {

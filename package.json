@@ -1,0 +1,29 @@
+{
+  "name": "pubsub_module",
+  "version": "0.0.1",
+  "description": "pubsub modules",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc src/modules/index.ts --outDir src/modules",
+    "example": "tsc example/index.ts && node example/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hieu-vt/pubsub-module.git"
+  },
+  "keywords": [
+    "pubsub",
+    "mobile"
+  ],
+  "author": "hieu-vt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hieu-vt/pubsub-module/issues"
+  },
+  "homepage": "https://github.com/hieu-vt/pubsub-module#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
