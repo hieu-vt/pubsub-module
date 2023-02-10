@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc src/modules/index.ts --outDir src/modules",
-    "example": "tsc example/index.ts && node example/index.js"
+    "example": "tsc example/index.ts && yarn build && node example/index.js"
   },
   "repository": {
     "type": "git",
